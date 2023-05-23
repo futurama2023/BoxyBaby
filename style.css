@@ -1,0 +1,44 @@
+.my-class {
+    font-size: xx-large;
+}
+
+body {
+    background: linear-gradient(to bottom right, #FFC0CB, #87CEEB);
+     background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.link-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .link-item {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-size: cover;
+    transition: background-color 0.3s ease;
+  }
+
+  .link-item {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  
+  .link-item:hover {
+    opacity: 0.5;
+  }
+  
+  .link-item.link-item-1 {
+    background-image: url('crock.png');
+  }
+  
+  .link-item.link-item-2 {
+    background-image: url('stock.png');
+  }
+  
+  .link-item.link-item-3 {
+    background-image: url('barrock.png');
+  }
+  
